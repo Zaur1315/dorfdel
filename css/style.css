@@ -1,0 +1,13 @@
+.banner{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/AdobeStock_188341948-edited-scaled.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    & .caption{
+        height: 100%;
+    }
+}
