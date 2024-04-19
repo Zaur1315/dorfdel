@@ -1,6 +1,6 @@
     document.addEventListener("DOMContentLoaded", function() {
         // Получаем ссылки на табы и соответствующее содержимое
-        var tabs = document.querySelectorAll('.nav-link');
+        var tabs = document.querySelectorAll('.nav-tab');
         var bodies = document.querySelectorAll('.card-body > div');
 
         // Обрабатываем клики по табам

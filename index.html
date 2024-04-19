@@ -2,51 +2,51 @@
 <html>
 
 <head>
-    <!-- set the encoding of your site -->
     <meta charset="utf-8" />
-    <!-- set the viewport width and initial-scale on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COXDORF</title>
+    <title>Home - COXDORF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./img/128.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="hover-up nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover-up nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover-up nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover-up nav-link" href="work_with_us.html">Work With Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover-up nav-link" href="clients.html">Our Clients</a></a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/128.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="hover-up nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover-up nav-link" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover-up nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover-up nav-link" href="./work-with-us.html">Work With Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover-up nav-link" href="./our-clients.html">Our Clients</a></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <main id="main">
         <section>
             <div class="container-fluid banner">
@@ -61,7 +61,7 @@
         <section class="brown about">
             <div class="container-1024">
                 <div class="row">
-                    <div class="col-7 img-col"><img class="hover-up" src="./img/53f9facce868c3c1725dc7cdc7bb96c5.avif" alt="about"></div>
+                    <div class="col-7 img-col"><img class="hover-up" src="./assets/img/53f9facce868c3c1725dc7cdc7bb96c5.avif" alt="about"></div>
                     <div class="col-5">
                         <h2 class="mb-5">About Us</h2>
                         <p>
@@ -91,7 +91,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="img">
-                            <img class="hover-up" src="./img/track-your-parcel2.jpg" alt="img" />
+                            <img class="hover-up" src="./assets/img/track-your-parcel2.jpg" alt="img" />
                         </div>
                         <h4>
                             Track Your Package Anywhere
@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="img">
-                            <img class="hover-up" src="./img/how-write-address-package-B-1174695-Q421.avif" alt="img" />
+                            <img class="hover-up" src="./assets/img/how-write-address-package-B-1174695-Q421.avif" alt="img" />
                         </div>
                         <h4>
                             Private Shipping Address
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="img">
-                            <img class="hover-up" src="./img/Guide to Shipping for Your Online Store.webp" alt="img" />
+                            <img class="hover-up" src="./assets/img/Guide to Shipping for Your Online Store.webp" alt="img" />
                         </div>
                         <h4>
                             From Many Stores To One Shipment
@@ -198,13 +198,13 @@
                                 <div class="card-header">
                                     <ul class="nav nav-pills card-header-pills">
                                         <li class="nav-item">
-                                            <a id="nav-1" class="nav-link active" href="#">Regular</a>
+                                            <a id="nav-1" class="nav-link nav-tab active" href="#">Regular</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a id="nav-2" class="nav-link" href="#">Plus</a>
+                                            <a id="nav-2" class="nav-link nav-tab" href="#">Plus</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a id="nav-3" class="nav-link" href="#">Super Plus</a>
+                                            <a id="nav-3" class="nav-link nav-tab" href="#">Super Plus</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -245,7 +245,7 @@
             <div class="row pb-5">
                 <div class="col-3">
                     <a href="index.html">
-                        <img src="./img/128.png" alt="logo">
+                        <img src="./assets/img/128.png" alt="logo">
                     </a>
                     <div class="contact">
                         <address>
@@ -340,10 +340,10 @@
                     <span class="copyright">Copyright &copy; COXDORF LLC 2024. All rights reserved.</span>
                 </div>
                 <ul class="sub-nav col-6 d-flex gap-5 justify-content-end">
-                    <li><a href="prohibitedItems.php">Prohibited Items</a></li>
-                    <li><a href="terms.php">Terms & Conditions</a></li>
-                    <li><a href="countries.php">Countries</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="./prohibited.html">Prohibited Items</a></li>
+                    <li><a href="./terms.html">Terms & Conditions</a></li>
+                    <li><a href="./countries.html">Countries</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -353,7 +353,7 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

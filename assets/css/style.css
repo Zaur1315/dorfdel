@@ -152,6 +152,10 @@ nav {
 
 main {
 
+    &.sub-page{
+        height: 60vh;
+    }
+
     & .brown {
         background-color: var(--bg-color);
     }
@@ -213,6 +217,7 @@ main {
             padding: 0 150px 70px 150px;
         }
     }
+
 }
 
 
@@ -260,6 +265,8 @@ main {
             width: 100%;
         }
     }
+
+
 }
 
 & .pricing-section {
@@ -360,5 +367,16 @@ footer {
 
     & .form-container {
         padding-left: 35px;
+    }
+}
+
+main {
+
+    & .sub-page{
+        min-height: 60vh;
+    }   
+
+    & .page-proh{
+        background-image: url('../img/WorkWave-How-to-Add-a-Delivery-Service-For-Your-Business.jpg');
     }
 }
