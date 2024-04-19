@@ -313,6 +313,7 @@ main {
 
         & .body-wrapper {
             display: none;
+            transition: all 500ms;
 
             & .card-text {
                 margin: 20px 0;
@@ -373,10 +374,35 @@ footer {
 main {
 
     & .sub-page{
-        min-height: 60vh;
+        min-height: 70vh;
     }   
 
     & .page-proh{
         background-image: url('../img/WorkWave-How-to-Add-a-Delivery-Service-For-Your-Business.jpg');
+    }
+
+    & .page-about{
+        background-image: url('../img/final-mile-delivery-scaled-1.jpeg');
+    }
+
+    & .page-term{
+        background-image: url('../img/term.webp');
+    }
+
+    & .page-country{
+        background-image: url('../img/World-Country-Map-scaled.jpg');
+    }
+
+    & .container-768{
+        max-width: 768px;
+        margin: 0 auto;
+
+        & img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: var(--box-shadow);
+        }
     }
 }
