@@ -373,6 +373,12 @@ footer {
 
 main {
 
+    & .banner-text h5{
+        color: var(--button-color);
+        position: relative;
+        z-index: 1;
+    }
+
     & .sub-page{
         min-height: 70vh;
     }   
@@ -391,6 +397,14 @@ main {
 
     & .page-country{
         background-image: url('../img/World-Country-Map-scaled.jpg');
+    }
+
+    & .page-faq{
+        background-image: url('../img/faq-schema-63b70abfc3906-sej-1280x720.webp');
+    }
+
+    & .page-services{
+        background-image: url('../img/package-delivery-companies.jpg');
     }
 
     & .container-768{
