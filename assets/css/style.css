@@ -162,7 +162,7 @@ main {
 
     & .about {
         .container-1024 {
-            width: 1024px;
+            max-width: 1024px;
             margin: 0 auto;
             padding: 100px 0;
 
@@ -405,6 +405,14 @@ main {
 
     & .page-services{
         background-image: url('../img/package-delivery-companies.jpg');
+    }
+
+    & .page-client{
+        background-image: url('../img/delivery-banner.jpg');
+    }
+
+    & .page-work{
+        background-image: url('../img/641b8b4b1782863716530053_app-for-delivery-routes-hero.webp');
     }
 
     & .container-768{
